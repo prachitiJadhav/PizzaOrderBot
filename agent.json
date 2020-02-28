@@ -1,0 +1,78 @@
+{
+  "description": "",
+  "language": "en",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on"
+  ],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "pizza-order-oosoqf",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "6dbc475a-203b-4bcc-a997-f4608e76e7a6",
+        "signInRequired": false
+      },
+      {
+        "intentId": "70ba9b40-5580-4780-b44e-017cabb66596",
+        "signInRequired": false
+      },
+      {
+        "intentId": "7a8a920e-c77b-4cdb-b23e-8248d82d0340",
+        "signInRequired": false
+      },
+      {
+        "intentId": "cceeae46-15af-433e-96bb-7a9b491e9a09",
+        "signInRequired": false
+      },
+      {
+        "intentId": "b3866749-db7b-4420-a8f7-6a6608f8d9d6",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "c8e827be-bdbe-44c3-92cb-7f342ff8f188"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "providerId": "",
+      "authorizationUrl": "",
+      "tokenUrl": "",
+      "scopes": "",
+      "privacyPolicyUrl": "",
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "env": "",
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Almaty",
+  "webhook": {
+    "url": "https://us-central1-pizza-order-oosoqf.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "username": "",
+    "headers": {},
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": ""
+}

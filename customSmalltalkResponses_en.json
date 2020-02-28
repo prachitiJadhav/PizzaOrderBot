@@ -1,0 +1,8 @@
+[
+  {
+    "action": "smalltalk.confirmation.cancel",
+    "customAnswers": [
+      "okay"
+    ]
+  }
+]
