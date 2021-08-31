@@ -1,4 +1,6 @@
 # PizzaOrderBot
+Download the files and go to "index.html" to view the project
+
 Pizza order Bot with Dialogflow
 1. Tell the Bot what type of pizza you want{ eg. Mushroom, Capsicum, Onion}
 2. Tell the Bot What size you want{ small, Medium, Large}
